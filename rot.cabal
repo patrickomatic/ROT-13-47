@@ -1,0 +1,12 @@
+Name: rot
+Version: 1.0
+Synopsis: ROT13 and ROT47 support 
+Description: A program which takes text on standard input and encodes it in either ROT13 or ROT47 and outputs it on standard output.
+License: GPL
+License-file: LICENSE
+Author:	Patrick Carroll
+Maintainer:	Patrick Carroll <patrick@patrickomatic.com>
+Build-Depends: base, haskell98
+
+Executable:	rot
+Main-is: RotMain.hs
